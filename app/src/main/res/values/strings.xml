@@ -2,8 +2,8 @@
     <string name="app_name">Odchudzanie</string>
 
     <string-array name="Skibidi">
-        <item>yeah</item>
-        <item>baby</item>
+        <item>"yeah"</item>
+        <item>"baby"</item>
 
     </string-array>
 </resources>
