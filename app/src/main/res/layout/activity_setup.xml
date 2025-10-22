@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/ageInput"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Age"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/weightInput"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Weight (kg)"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/heightInput"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Height (cm)"
+        android:inputType="numberDecimal" />
+
+    <Spinner
+        android:id="@+id/genderSpinner"
+        android:entries="@array/gender_options" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:text="Save" />
+</LinearLayout>
