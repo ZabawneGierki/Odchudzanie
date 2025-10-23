@@ -3,34 +3,44 @@
     android:orientation="vertical"
     android:padding="24dp"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="20dp"
+    >
 
     <EditText
         android:id="@+id/ageInput"
-        android:layout_height="wrap_content"
+        android:autofillHints="Skibidi Toilet"
+        android:hint="@string/age"
+        android:inputType="number"
+        android:layout_height="65dp"
         android:layout_width="match_parent"
-        android:hint="Age"
-        android:inputType="number" />
+        />
 
     <EditText
         android:id="@+id/weightInput"
-        android:layout_height="wrap_content"
+        android:layout_height="65dp"
         android:layout_width="match_parent"
-        android:hint="Weight (kg)"
+        android:autofillHints="Skibidi Toilet"
+        android:hint="@string/weight_kg"
         android:inputType="numberDecimal" />
 
     <EditText
         android:id="@+id/heightInput"
-        android:layout_height="wrap_content"
+        android:layout_height="65dp"
         android:layout_width="match_parent"
-        android:hint="Height (cm)"
+        android:autofillHints="Skibidi Toilet"
+        android:hint="@string/height_cm"
         android:inputType="numberDecimal" />
 
     <Spinner
         android:id="@+id/genderSpinner"
+        android:layout_height="65dp"
+        android:layout_width="match_parent"
         android:entries="@array/gender_options" />
 
     <Button
         android:id="@+id/saveButton"
-        android:text="Save" />
+        android:layout_height="65dp"
+        android:layout_width="match_parent"
+        android:text="@string/save" />
 </LinearLayout>

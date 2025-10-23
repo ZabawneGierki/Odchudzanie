@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Odchudzanie</string>
+    <string name="age">Age</string>
+    <string name="weight_kg">Weight (kg)</string>
+    <string name="height_cm">Height (cm)</string>
+    <string name="save">Save</string>
 
     <string-array name="Skibidi">
         <item>"yeah"</item>

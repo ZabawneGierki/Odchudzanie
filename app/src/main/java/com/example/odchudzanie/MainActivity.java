@@ -16,11 +16,15 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences prefs = getSharedPreferences("UserData", MODE_PRIVATE);
         boolean hasData = prefs.contains("age");
 
+
+
         if (!hasData) {
-            Intent intent = new Intent(this, SetupActivity.class);
+             Intent intent = new Intent(this, SetupActivity.class);
             startActivity(intent);
-            finish();
+             finish();
         }
+
+
         setContentView(R.layout.activity_main);
 
     }
