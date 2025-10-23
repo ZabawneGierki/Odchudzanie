@@ -3,6 +3,10 @@
     <style name="Base.Theme.Odchudzanie" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/gold</item>
+        <item name="colorPrimaryDark">@color/honey</item>
+        <item name="colorAccent">@color/raspberry</item>
+        <item name="android:windowBackground">@color/LightCyan</item>
     </style>
 
     <style name="Theme.Odchudzanie" parent="Base.Theme.Odchudzanie" />

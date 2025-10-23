@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="gold">#FFBF00</color>
+    <color name="honey">#FCFF5E</color>
+    <color name="raspberry">#C71585</color>
+    <color name="LightCyan">#E0FFFF</color>
 </resources>
