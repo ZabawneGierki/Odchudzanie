@@ -32,6 +32,8 @@
             <TextView
                 android:id="@+id/breakfast"
                 android:layout_marginTop="10dp"
+
+                android:background="@color/honey"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingLeft="30dp"
@@ -40,6 +42,7 @@
                 tools:ignore="RtlHardcoded,RtlSymmetry" />
             <TextView
                 android:id="@+id/lunch"
+                android:background="@color/honey"
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -49,6 +52,7 @@
                 tools:ignore="RtlHardcoded,RtlSymmetry" />
             <TextView
                 android:id="@+id/dinner"
+                android:background="@color/honey"
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
