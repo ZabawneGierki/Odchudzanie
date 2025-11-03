@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Odchudzanie</string>
+    <string name="age">Wiek</string>
+    <string name="weight_kg">Waga (w kg)</string>
+    <string name="height_cm">Wzrost</string>
+    <string name="save">Zapisz</string>
+    <string name="calorie_tracker">Kalorie</string>
+    <string name="home">Strona Główna</string>
+    <string name="calendar">Kalendarz</string>
+    <string name="settings">Ustawiena</string>
+    <string name="cirno_smart">Cirno jest mondra</string>
+    <string name="breakfast">śniadanie</string>
+    <string name="lunch">obiad</string>
+</resources>
