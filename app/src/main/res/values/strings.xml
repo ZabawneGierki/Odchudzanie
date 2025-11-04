@@ -11,7 +11,6 @@
     <string name="cirno_smart">Cirno smart</string>
     <string name="breakfast">Breakfast</string>
     <string name="lunch">Lunch</string>
-    <string name="dinner">Dinner</string>
 
     <string-array name="Skibidi">
         <item>"yeah"</item>

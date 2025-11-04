@@ -29,52 +29,56 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/breakfast"
-                android:layout_marginTop="10dp"
-
-                android:background="@color/honey"
+            <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="30dp"
-                android:text="@string/breakfast"
-                android:textSize="30sp"
-                tools:ignore="RtlHardcoded,RtlSymmetry" />
-            <TextView
-                android:id="@+id/lunch"
-                android:background="@color/honey"
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="30dp"
-                android:text="@string/lunch"
-                android:textSize="30sp"
-                tools:ignore="RtlHardcoded,RtlSymmetry" />
-            <TextView
-                android:id="@+id/dinner"
-                android:background="@color/honey"
-                android:layout_marginTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingLeft="30dp"
-                android:text="@string/dinner"
-                android:textSize="30sp"
-                tools:ignore="RtlHardcoded,RtlSymmetry" />
+                android:layout_height="match_parent">
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
+                    <TextView
+                        android:id="@+id/breakfast"
+                        android:layout_marginTop="10dp"
 
+                        android:background="@color/honey"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30dp"
+                        android:text="@string/breakfast"
+                        android:textSize="30sp"
+                        tools:ignore="RtlHardcoded,RtlSymmetry" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/girl" />
 
-
-
-
+                    <TextView
+                        android:id="@+id/lunch"
+                        android:background="@color/honey"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30dp"
+                        android:text="@string/lunch"
+                        android:textSize="30sp"
+                        tools:ignore="RtlHardcoded,RtlSymmetry" />
+                    <TextView
+                        android:id="@+id/dinner"
+                        android:background="@color/honey"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="30dp"
+                        android:text="dinner"
+                        android:textSize="30sp"
+                        tools:ignore="RtlHardcoded,RtlSymmetry" />
+                </LinearLayout>
+            </ScrollView>
         </LinearLayout>
-
-
-
-
-
-
-
     </LinearLayout>
 
     <!-- Drawer menu -->
@@ -85,9 +89,4 @@
         android:layout_gravity="start"
         app:menu="@menu/drawer_menu"
         app:headerLayout="@layout/drawer_header" />
-
-
-
-
-
 </androidx.drawerlayout.widget.DrawerLayout>
