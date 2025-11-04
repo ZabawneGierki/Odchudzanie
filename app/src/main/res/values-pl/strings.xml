@@ -12,4 +12,6 @@
     <string name="cirno_smart">Cirno jest mondra</string>
     <string name="breakfast">śniadanie</string>
     <string name="lunch">obiad</string>
+    <string name="dinner">kolacja</string>
+    <string name="girl_img_desc">dziewczyna</string>
 </resources>
