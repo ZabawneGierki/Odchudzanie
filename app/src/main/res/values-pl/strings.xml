@@ -16,4 +16,5 @@
     <string name="girl_img_desc">dziewczyna</string>
     <string name="calories" />
     <string name="add_meal" />
+    <string name="submit" />
 </resources>
