@@ -14,4 +14,6 @@
     <string name="lunch">obiad</string>
     <string name="dinner">kolacja</string>
     <string name="girl_img_desc">dziewczyna</string>
+    <string name="calories" />
+    <string name="add_meal" />
 </resources>
