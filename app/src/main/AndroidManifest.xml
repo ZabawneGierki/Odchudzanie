@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Odchudzanie">
         <activity
+            android:name=".EditMealActivity"
+            android:exported="false" />
+        <activity
             android:name=".SetupActivity"
             android:exported="false" />
         <activity
